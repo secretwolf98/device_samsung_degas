@@ -22,8 +22,8 @@
 
 
 
-LineageOS 15
-============
+LineageOS 15.1
+==============
 
 Getting Started
 ---------------
@@ -33,7 +33,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/secretwolf98/device_samsung_degaswifi -b lineage-15.0
+    repo init -u git://github.com/secretwolf98/device_samsung_degaswifi -b lineage-15.1
 
 Then to sync up:
 
@@ -51,7 +51,7 @@ Please see the LineageOS Wiki for building instructions.
 
 ```
 #
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
