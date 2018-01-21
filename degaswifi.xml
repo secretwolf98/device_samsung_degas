@@ -2,7 +2,7 @@
 <manifest>
   <project path="device/samsung/degaswifi"      name="secretwolf98/maxicm_device_samsung_degaswifi"      remote="github" revision="cm-14.1"/>
   <project path="device/samsung/marvell-common" name="secretwolf98/maxicm_device_samsung_marvell-common" remote="github" revision="cm-14.1"/>
-  <project path="kernel/samsung/degaswifi"      name="secretwolf98/android_kernel_samsung_degaswifi"     remote="github" revision="cm-14.1"/>
+  <project path="kernel/samsung/degaswifi"      name="secretwolf98/android_kernel_samsung_degaswifi"     remote="github" revision="cm-11.0"/>
   <project path="vendor/samsung"                name="secretwolf98/maxicm_vendor_samsung"                remote="github" revision="cm-14.1"/>
   <project path="hardware/marvell"              name="secretwolf98/maxicm_hardware_marvell"              remote="github" revision="cm-14.1"/>
 </manifest>
