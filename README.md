@@ -49,6 +49,7 @@ mkdir -p ~/android/lineage
 Make sure to repo the Google source code:
 
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
 chmod a+x ~/bin/repo
 
 
