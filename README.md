@@ -35,18 +35,21 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 You need to download JAVA to compile:
 
 LineageOS 14.1: OpenJDK 1.8 (install openjdk-8-jdk)
+
 LineageOS 11.0-13.0: OpenJDK 1.7 (install openjdk-7-jdk)*
 
 
 Make your directories where the source code is kept:
 
 mkdir -p ~/bin
+
 mkdir -p ~/android/lineage
 
 
 Make sure to repo the Google source code:
 
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
 chmod a+x ~/bin/repo
 
 
