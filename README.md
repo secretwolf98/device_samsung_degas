@@ -22,8 +22,8 @@
 
 
 
-LineageOS 15.1
-==============
+CyanogenMod 13.0
+================
 
 Getting Started
 ---------------
@@ -31,9 +31,29 @@ Getting Started
 To get started with Android for degaswifi, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
+
+You need to download JAVA to compile:
+
+LineageOS 14.1: OpenJDK 1.8 (install openjdk-8-jdk)
+LineageOS 11.0-13.0: OpenJDK 1.7 (install openjdk-7-jdk)*
+
+
+Make your directories where the source code is kept:
+
+mkdir -p ~/bin
+mkdir -p ~/android/lineage
+
+
+Make sure to repo the Google source code:
+
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+
+
+
 To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/secretwolf98/device_samsung_degaswifi -b lineage-15.1
+    repo init -u git://github.com/secretwolf98/device_samsung_degaswifi -b cm-13.0
 
 Then to sync up:
 
@@ -41,7 +61,16 @@ Then to sync up:
 
 Choose target:
 
+    source build/envsetup.sh
+    
     lunch degaswifi
+
+
+To install the build:
+
+    cd $OUT
+
+
 
 Please see the LineageOS Wiki for building instructions.
 
